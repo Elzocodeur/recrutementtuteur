@@ -1,27 +1,34 @@
-# GestionDeRecrutements
+Plateforme de recrutement des tuteurs – UN-CHK (frontend)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
+Application web de gestion des candidatures de tuteurs pour l'Université Numérique Cheikh Hamidou Kane (UN-CHK). Elle automatise le dépôt et le suivi des candidatures, avec un espace pour les candidats et un espace d'administration. Projet pédagogique réalisé en Angular, avec un backend Spring Boot.
 
-## Development server
+Fonctionnalités
+Page d'accueil présentant les offres de recrutement
+Authentification (inscription, connexion) et routes protégées
+Espace candidat : dépôt de candidature, suivi de ses candidatures
+Espace d'administration : consultation et traitement des candidatures
+Stack technique
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Angular 18, TypeScript, Tailwind CSS, RxJS, SweetAlert2. Backend Spring Boot (API REST) déployé sur Render, frontend déployé sur Vercel.
 
-## Code scaffolding
+Lancer le projet
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Prérequis : Node.js 18+ et Angular CLI.
 
-## Build
+bash
+npm install
+ng serve
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+L'application est disponible sur http://localhost:4200/. L'URL de l'API se configure dans src/environments/.
 
-## Running unit tests
+Build de production :
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+bash
+ng build
+Captures d'écran
 
-## Running end-to-end tests
+Ajouter ici des captures de la page d'accueil, de l'espace candidat et de l'espace admin.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Auteur
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Elimane Gning – LinkedIn
